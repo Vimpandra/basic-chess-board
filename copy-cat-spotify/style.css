@@ -1,0 +1,70 @@
+:root {
+    --spgreen: #1ED760;
+    --spblue: #2941AB;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1 {
+    margin: 0;
+    font-size: 96px;
+    font-weight: bolder;
+}
+
+header {
+    background-color: black;   
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+header img {
+    margin-left: 3vw;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 3vw;
+    font-size: 14px;
+}
+.a-border {
+    border-left: 1px solid white;
+    padding-left: 3vw;
+}
+header a:hover {
+    color: var(--spgreen);
+}
+.banner {
+    background-color: var(--spblue);
+    color: var(--spgreen);
+    height: 80vh;
+    text-align: center;
+    padding-top: 16vh;
+}
+.banner p {
+    font-size: 16px;
+    line-height: 20px;
+}
+.banner button {
+    width: 200px;
+    height: 52px;
+    margin-top: 20px;
+    background-color: var(--spgreen);
+    border: none;
+    color: var(--spblue);
+    font-weight: bold;
+    border-radius: 26px;
+    font-size: 14px;
+}
+.banner button:hover {
+    width: 204px;
+    height: 56px;
+    border-radius: 27px;
+    font-size: 15px;
+}
