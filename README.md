@@ -1,3 +1,2 @@
-# git-test
-My first github repo
-Hi Odin!
+# Basic Chess Board
+This is a coding challenge to assess my learning
