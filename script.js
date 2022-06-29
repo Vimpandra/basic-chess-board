@@ -81,18 +81,19 @@ let board = [
     a8, b8, c8, d8, e8, f8, g8, h8,
 ];
 
-let activeSquare = document.getElementsByClassName(`active square`);
-
 board.forEach(item => {
-    item.addEventListener(`click`, movement);
+    item.addEventListener(`click`, selectPiece);
 
-    function movement() {
-        if (activeSquare.length == 0 && item.textContent !== ``) {
-            item.className = `active square`;
-
-        } else if (activeSquare.length > 0) {
-            item.textContent = activeSquare.textContent;
-        }
+    function selectPiece() {
+        let pieceToMove = item.textContent;
+        console.log(pieceToMove);
+        item.className = `active square`;
     }
+
+    function movePiece(pieceToMove) {
+        item.textContent = pieceToMove;
+    }
+
+    
 
 })
