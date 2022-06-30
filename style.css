@@ -10,14 +10,12 @@ h1 {
 p {
     font-size: 10px;
 }
-.squares {
-    display: flex;
-    flex-direction: column;    
-}
-
-.board-line {
+.board {
     display: flex;
     flex-direction: row;
+    width: calc(50px * 8);
+    height: calc(50px * 8);
+    flex-wrap: wrap;    
 }
 
 .letters {
