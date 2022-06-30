@@ -44,10 +44,6 @@ p {
     justify-content: center;
     margin: auto;
 }
-.board-line p {
-    font-size: 44px;
-    color: white;
-}
 .black {
     background-color: black;
 }
@@ -61,6 +57,8 @@ p {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-size: 44px;
+    color: white;
 }
 
 .square:hover {
